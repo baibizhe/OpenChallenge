@@ -16,7 +16,7 @@ RUN python -m pip install --user -U pip && python -m pip install --user pip-tool
 
 COPY --chown=user:user requirements.txt /opt/app/
 RUN python -m piptools sync requirements.txt
-RUN pip install SimpleITK evalutils
+RUN python -m pip  install SimpleITK evalutils   -i https://pypi.tuna.tsinghua.edu.cn/simple
 
 
 

@@ -1,0 +1,9 @@
+Epoch 1/10, Train Loss: 251.8362, Validation Loss: 385.8147
+Epoch 2/10, Train Loss: 185.9945, Validation Loss: 326.1106
+Epoch 3/10, Train Loss: 158.1339, Validation Loss: 264.4783
+Epoch 4/10, Train Loss: 142.3689, Validation Loss: 236.8854
+  0%|          | 0/64 [00:00<?, ?it/s]Epoch 5/10, Train Loss: 137.4807, Validation Loss: 229.6175
+  0%|          | 0/64 [00:00<?, ?it/s]Epoch 6/10, Train Loss: 135.3988, Validation Loss: 222.6211
+Epoch 10/10, Train Loss: 125.3970, Validation Loss: 224.7354
+        transforms.Normalize(mean=[0.5], std=[0.5])  # 标准化
+self.densenet = resnet50(spatial_dims=3, n_input_channels=1, num_classes=1,pretrained=False)
